@@ -65,18 +65,6 @@ $> tree .git/objects
 ```
 - Exercise 4: 
 ```
-$ tree .git/objects
-.git/objects
-├── 58
-│   └── 1caa0fe56cf01dc028cc0b089d364993e046b6
-├── 98
-│   └── 0a0d5f19a64b4b30a87d4206aade58726b60e3
-├── ff
-│   └── 767227596240d6f6e095ca9558d7dabda0eccd
-├── info
-└── pack
-
-5 directories, 3 files
 $> git cat-file -t 581caa0
 tree
 $> git cat-file -p 581caa0
