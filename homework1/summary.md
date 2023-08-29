@@ -2,8 +2,8 @@ All the command lines are noted in the note.md file of each folder.
 This is the summary of every git command line in each exercise
 
 - Exercise 1:
-`tree .git` \
-`git cat-file -t <hash>` : type (tree or blob) \
+`tree .git` \n
+`git cat-file -t <hash>` : type (tree or blob) \n
 `git cat-file -p <hash>` : print (name file, hash file)
 `cat file`: show file
 
