@@ -11,43 +11,43 @@ bin  boot  cdrom  dev  etc  home  lib  lib32  lib64  libx32  lost+found  media  
 ```
 2. Reading: Linus Terminal Tips
 ```
-(base) minhtam@tammy:~$ cd Pictures/
-(base) minhtam@tammy:~/Pictures$ cd ..
-(base) minhtam@tammy:~$ cd Documents/
-(base) minhtam@tammy:~$ cd Documents/python-examples/
-(base) minhtam@tammy:~/Documents/python-examples$ python myprogram.py 
+$> cd Pictures/
+$>  cd ..
+$>  cd Documents/
+$>  cd Documents/python-examples/
+$>  python myprogram.py 
 Hello, World
-(base) minhtam@tammy:~/Documents/python-examples$ cd /
-(base) minhtam@tammy:/$ 
+$> cd /
+$>  
 ```
 3. Hands-on Lab: Getting Started with the Linux Terminal
 - Exercise 1: 
 ```
 1.1 
-ls 
+$> ls 
 bin   cdrom  etc   lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
 boot  dev    home  lib32  libx32  media       opt  root  sbin  srv   tmp  var
 1.2 
-ls /
+$> ls /
 bin   cdrom  etc   lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
 boot  dev    home  lib32  libx32  media       opt  root  sbin  srv   tmp  var
-ls /bin
+$> ls /bin
 #I would like not to paste in because it's too long
 ```
 - Exercise 2: 
 ```
 2.1 
-cd ~
+$> cd ~
 2.2
- cd ..
+$> cd ..
 2.3 
- cd /
+$> cd /
 2.4
-cd bin
+$> cd bin
 2.5
- cd ~
+$> cd ~
 2.6
-cd workspace/
+$> cd workspace/
 ```
 Exercise 3: Using tab completion and command history \n
 It is just the usage of tab and up, down arrow \n
@@ -55,24 +55,24 @@ It is just the usage of tab and up, down arrow \n
 4. Practice exercise: 
 ```
 1.
-ls /
+$> ls /
 bin   cdrom  etc   lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
 boot  dev    home  lib32  libx32  media       opt  root  sbin  srv   tmp  var
 2. 
-cd ~
+$> cd ~
 3. 
- pwd
+$>  pwd
 /home/minhtam/theia
 4.
-cd bin
+$> cd bin
 5. 
-cd ~
+$> cd ~
 ```
 5. Hands-on Lab: Getting Started with the Linux Terminal
 - Exercise 1: 
 ```
 1.1
-sudo apt update
+$> sudo apt update
 Hit:1 http://vn.archive.ubuntu.com/ubuntu jammy InRelease
 Get:2 http://vn.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB] 
 Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease                                 
@@ -89,42 +89,42 @@ Building dependency tree... Done
 Reading state information... Done
 69 packages can be upgraded. Run 'apt list --upgradable' to see them.
 1.2
-sudo apt upgrade nano
+$> sudo apt upgrade nano
 too long text ahihi
 1.3
-sudo apt install vim
+$> sudo apt install vim
 too long text ahihi
 ```
 - Exercise 2: 
 ```
 2.1 
-(base) minhtam@tammy:~$ mkdir project
+$>  mkdir project
 cd project 
 2.2 
-nano hello_world.txt
+$> nano hello_world.txt
 2.3
-cat hello_world.txt
+$> cat hello_world.txt
 Hello world!
 This is the second line of my first-ever text file created with nano.
 ```
 - Exercise 3
 ```
 3.1
-vim 
+$> vim 
 ![Alt text](image.png)
 #When done reading
 3.2
-vim hello_world_2.txt
+$> vim hello_world_2.txt
 ![Alt text](image-1.png)
 ```
 - Practice Exercises
 ```
 1.
-nano hello_world.txt
+$> nano hello_world.txt
 ![Alt text](image-2.png)
 Ctrl X + Y+  Enter
 2.
-vim done.txt
+$> vim done.txt
 I am done with the lab!
 Insert + :wq
 ```
